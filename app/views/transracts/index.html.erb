@@ -4,13 +4,13 @@
 </div>
 <% @transracts.each do |transract| %>
   <div class="container-fluid catergory-card">
-  <%= image_tag "https://cdn-icons-png.flaticon.com/128/9080/9080379.png", size: 8*10 %>
+  <%= image_tag "https://cdn-icons-png.flaticon.com/128/9080/9080780.png", size: 8*10 %>
   <h3><%= transract.transract.name %></h3>
   <p>$<%= transract.transract.amount %></p>
   </div>
   <% end %>
   <div class="btn_container">
-  <%= link_to "Add Transract", new_group_transract_path, class:"btn_size" %>
+  <%= link_to "Add new Transaction", new_group_transract_path, class:"btn_size" %>
   </div>
   </section>
 

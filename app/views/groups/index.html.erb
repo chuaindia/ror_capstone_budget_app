@@ -1,7 +1,7 @@
 <main class="container-fluid main-container">
 <% @categories.each do |category| %>
   <div class="container-fluid catergory-card">
-  <%= image_tag ('cart.png')  %>
+  <%= image_tag "cart.png"  %>
   <h3><%=link_to category.name, group_transracts_path(category.id)%></h3>
   <% total_price = 0 %>
   <% @transract_groups.each do |group| %>
