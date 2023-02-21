@@ -11,7 +11,7 @@ RSpec.describe GroupsController, type: :request do
     end
 
     it 'returns a list of groups' do
-      expect(response.body).to include('Add new category')
+      expect(response.body).to include('Add new Category')
     end
   end
 end

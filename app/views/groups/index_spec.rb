@@ -13,7 +13,7 @@ RSpec.describe 'Groups index view', type: :system do
 
   it 'shows all groups' do
     visit groups_path
-    expect(page).to have_content('Add new category')
+    expect(page).to have_content('Add new Category')
   end
 
   it 'shows all transactions' do
