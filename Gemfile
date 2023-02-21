@@ -27,6 +27,9 @@ gem 'stimulus-rails'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 
+# Install rubocop [https://github.com/rubocop/rubocop]
+gem 'rubocop', '>= 1.0', '< 2.0'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -47,8 +50,9 @@ gem 'devise'
 
 # Authorization
 gem 'cancancan'
+
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem 'sassc-rails'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
