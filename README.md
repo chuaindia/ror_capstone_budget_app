@@ -108,7 +108,7 @@ $ cd ror_capstone_buget_app
 - **Before running below commands update [config/database.yml](./config/database.yml) with your local `DB`credentials. Then run:**
       - **`rake db:create`**
       - **`rake db:migrate`**
-      - **`rake db:seed`**
+     
 - With Ruby on Rails and PostgreSQL installed in your environment, you can run `rails server` to run the website.
 
 ### Tests
@@ -119,6 +119,7 @@ $ cd ror_capstone_buget_app
 ### Deployment
 
 - I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section. I   tried it several times following the process explained but it failed.The link for failed deployment is attached : https://ror-capstone-budget-app.onrender.com.
+- I tried deployment with netlify but that also fails and which hampered my pull request also. Those should not be considered as a test for pull request. all the pther   necessary checks are passed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
