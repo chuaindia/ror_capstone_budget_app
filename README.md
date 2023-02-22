@@ -118,7 +118,7 @@ $ cd ror_capstone_buget_app
 
 ### Deployment
 
-- I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section.
+- I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section. I   tried it several times following the process explained but it failed.The link for failed deployment is attached : https://ror-capstone-budget-app.onrender.com.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
