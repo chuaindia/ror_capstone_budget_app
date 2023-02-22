@@ -7,9 +7,7 @@ select#group_id {
 input#user_email,
 input#user_password,
 input#user_password_confirmation,
-input#user_name,
-input#user_bio,
-input#user_photo {
+input#user_name {
   width: 100%;
 }
 
