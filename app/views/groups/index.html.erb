@@ -3,7 +3,7 @@
 <div class="groups_container">
 <% @categories.each do |category| %>
   <div class="container-fluid catergory-card">
-  <%= image_tag category.icon  %>
+  <%= image_tag 'stack-of-books.png'  %>
   <div class= "name_date">
   <h3><%=link_to category.name, group_transracts_path(category.id)%></h3>
   <p>
