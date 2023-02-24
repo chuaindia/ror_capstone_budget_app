@@ -1,6 +1,3 @@
-# **ROR_CAPSTONE_BUDGET_APP** 
-With this App, one can manage budget: A list of transactions is there which associated with a category, so that one can see how much money to be spent for a particular choice.  A user is allowed to:  register and log in, so that the data is private to them. New category and new transaction can be created also.
-
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -72,13 +69,7 @@ With this App, one can manage budget: A list of transactions is there which asso
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To start and run this project
-```
-bundle install
-```
-```
-ruby main.rb
-```
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -103,24 +94,53 @@ $ git clone https://github.com/chuaindia/ror_capstone_buget_app.git
 $ cd ror_capstone_buget_app
 ```
 
-- Install the required dependecies with `bundle install`
-- Install npm dependencies with `npm install`
+- Install the required dependecies with  
+```
+bundle install
+```
+- Install npm dependencies with 
+```
+npm install
+```
 - **Before running below commands update [config/database.yml](./config/database.yml) with your local `DB`credentials. Then run:**
-      - **`rake db:create`**
-      - **`rake db:migrate`**
-      - **`rake db:seed`**
-- With Ruby on Rails and PostgreSQL installed in your environment, you can run `rails server` to run the website.
+```
+rake db:create
+```
+```
+rake db:migrate
+
+```
+     
+- With Ruby on Rails and PostgreSQL installed in your environment, you can run 
+```.rb
+rails server
+``` 
+to run the website.
 
 ### Tests
 
-- Run `rake db:seed RAILS_ENV=test` to seed the testing database
-- Run `rspec`
+- Run 
+```
+rake db:seed RAILS_ENV=test
+``` 
+to seed the testing database
+
+- Run 
+```
+rspec
+```
 
 ### Deployment
 
-- I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section.
+- I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section. I   tried it several times following the process explained but it failed.The link for failed deployment is attached : https://ror-capstone-budget-app.onrender.com.
+- I tried deployment with netlify : The details is attached in the pull request.
+
+### Video Presentation
+
+- I made a loom video presentation . The link is : https://www.loom.com/share/8cb3175e5c07456a8e902d6bd9639749
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- AUTHORS -->
 
@@ -137,7 +157,6 @@ $ cd ror_capstone_buget_app
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 - [ ] **More new pages**
 - [ ] **Proper Deployment**
 
@@ -175,6 +194,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
