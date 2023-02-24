@@ -1,6 +1,3 @@
-# **ROR_CAPSTONE_BUDGET_APP** 
-With this App, one can manage budget: A list of transactions is there which associated with a category, so that one can see how much money to be spent for a particular choice.  A user is allowed to:  register and log in, so that the data is private to them. New category and new transaction can be created also.
-
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
