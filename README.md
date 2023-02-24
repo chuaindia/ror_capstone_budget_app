@@ -76,6 +76,7 @@ bundle install
 ```
 ruby main.rb
 ```
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -100,6 +101,43 @@ $ git clone https://github.com/chuaindia/ror_capstone_buget_app.git
 $ cd ror_capstone_buget_app
 ```
 
+
+- Install the required dependecies with  
+```
+bundle install
+```
+- Install npm dependencies with 
+```
+npm install
+```
+- **Before running below commands update [config/database.yml](./config/database.yml) with your local `DB`credentials. Then run:**
+```
+rake db:create
+```
+```
+rake db:migrate
+
+```
+     
+- With Ruby on Rails and PostgreSQL installed in your environment, you can run 
+```.rb
+rails server
+``` 
+to run the website.
+
+### Tests
+
+- Run 
+```
+rake db:seed RAILS_ENV=test
+``` 
+to seed the testing database
+
+- Run 
+```
+rspec
+```
+
 - Install the required dependecies with `bundle install`
 - Install npm dependencies with `npm install`
 - **Before running below commands update [config/database.yml](./config/database.yml) with your local `DB`credentials. Then run:**
@@ -113,6 +151,7 @@ $ cd ror_capstone_buget_app
 - Run `rake db:seed RAILS_ENV=test` to seed the testing database
 - Run `rspec`
 
+
 ### Deployment
 
 - I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section. I   tried it several times following the process explained but it failed.The link for failed deployment is attached : https://ror-capstone-budget-app.onrender.com.
@@ -123,6 +162,7 @@ $ cd ror_capstone_buget_app
 - I made a loom video presentation . The link is : https://www.loom.com/share/8cb3175e5c07456a8e902d6bd9639749
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- AUTHORS -->
 
@@ -139,7 +179,6 @@ $ cd ror_capstone_buget_app
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 - [ ] **More new pages**
 - [ ] **Proper Deployment**
 
