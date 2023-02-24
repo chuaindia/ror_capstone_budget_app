@@ -141,9 +141,6 @@ rspec
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### loom video link : https://www.loom.com/share/8cb3175e5c07456a8e902d6bd9639749
-
-
 
 <!-- AUTHORS -->
 
