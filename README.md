@@ -69,13 +69,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To start and run this project
-```
-bundle install
-```
-```
-ruby main.rb
-```
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -100,18 +94,41 @@ $ git clone https://github.com/chuaindia/ror_capstone_buget_app.git
 $ cd ror_capstone_buget_app
 ```
 
-- Install the required dependecies with `bundle install`
-- Install npm dependencies with `npm install`
+- Install the required dependecies with  
+```
+bundle install
+```
+- Install npm dependencies with 
+```
+npm install
+```
 - **Before running below commands update [config/database.yml](./config/database.yml) with your local `DB`credentials. Then run:**
-      - **`rake db:create`**
-      - **`rake db:migrate`**
+```
+rake db:create
+```
+```
+rake db:migrate
+
+```
      
-- With Ruby on Rails and PostgreSQL installed in your environment, you can run `rails server` to run the website.
+- With Ruby on Rails and PostgreSQL installed in your environment, you can run 
+```.rb
+rails server
+``` 
+to run the website.
 
 ### Tests
 
-- Run `rake db:seed RAILS_ENV=test` to seed the testing database
-- Run `rspec`
+- Run 
+```
+rake db:seed RAILS_ENV=test
+``` 
+to seed the testing database
+
+- Run 
+```
+rspec
+```
 
 ### Deployment
 
