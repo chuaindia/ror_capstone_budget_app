@@ -117,6 +117,11 @@ $ cd ror_capstone_buget_app
 
 - I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section. I   tried it several times following the process explained but it failed.The link for failed deployment is attached : https://ror-capstone-budget-app.onrender.com.
 - I tried deployment with netlify : The details is attached in the pull request.
+
+### Video Presentation
+
+- I made a loom video presentation . The link is : https://www.loom.com/share/8cb3175e5c07456a8e902d6bd9639749
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### loom video link : https://www.loom.com/share/8cb3175e5c07456a8e902d6bd9639749
