@@ -1,6 +1,3 @@
-# **ROR_CAPSTONE_BUDGET_APP** 
-With this App, one can manage budget: A list of transactions is there which associated with a category, so that one can see how much money to be spent for a particular choice.  A user is allowed to:  register and log in, so that the data is private to them. New category and new transaction can be created also.
-
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -119,8 +116,7 @@ $ cd ror_capstone_buget_app
 ### Deployment
 
 - I will deploy the project with [render](https://render.com/docs/deploy-rails), after which you can access the live version of the project in the Live Demo section. I   tried it several times following the process explained but it failed.The link for failed deployment is attached : https://ror-capstone-budget-app.onrender.com.
-- I tried deployment with netlify but that also fails and which hampered my pull request also. Those should not be considered as a test for pull request. all the pther   necessary checks are passed.
-
+- I tried deployment with netlify : The details is attached in the pull request.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
