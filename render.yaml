@@ -1,7 +1,7 @@
 databases:
   - name: ror_capstone_budget_app
-    databaseName: ror_capstone_budget_app
-    user: ror_capstone_budget_app
+    databaseName: Postgresql
+    user: postgres
 
 services:
   - type: web
