@@ -7,7 +7,8 @@ services:
   - type: web
     name: ror_capstone_budget_app
     env: ruby
-    buildCommand: "./bin/render-build.sh"
+    buildCommand: chmod +x bin/render-build.sh
+    # "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
@@ -16,3 +17,20 @@ services:
           property: connectionString
       - key: 1b90d0a7521a617f50fafee6dd7a2097
         sync: false
+
+# services:
+#   - name: web
+#     buildCommand: |
+#       chmod +x bin/render-build.sh
+#       bundle install --without development test --jobs 4
+#       yarn install --check-files
+#       RAILS_ENV=production bundle exec rails assets:precompile
+#     startCommand: bundle exec rails server -p $PORT -e $RAILS_ENV
+#     env:
+#       DATABASE_URL: postgres://postgres:123456@host:port/PostgreSQL
+#       RAILS_ENV: production
+#       SECRET_KEY_BASE: 1b90d0a7521a617f50fafee6dd7a2097
+
+# addons:
+#   postgresql:
+#     version: "14"
